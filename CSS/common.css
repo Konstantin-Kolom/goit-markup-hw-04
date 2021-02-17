@@ -18,10 +18,17 @@
   --description-marg-size: 30px;
   --card-marg-size: 30px;
   --work-marg-size: 30px; 
+  --clients-marg-size: 30px; 
 
   --box-shadow-staff: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  
+  --bg-icon: #757575;
   --bg-icon-active: #2196F3;
+  --bg-frame-description: #F5F4FA;
 
+  --border-clients-color: #AFB1B8;
+
+  
 }
 
 li {
@@ -67,6 +74,12 @@ p {
 }
 
 img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+svg {
   display: block;
   max-width: 100%;
   height: auto;
