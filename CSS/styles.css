@@ -249,7 +249,7 @@
 }
 
 /* Стили НАША КОМАНДА ----------------------------------------------*/
-.section-staff {
+.section-staff .container{
   background-color: #F5F4FA;
 }
 
@@ -357,8 +357,8 @@
 }
 
 .link-clients {
-  width: 170px;
-  height: 90px;
+  width: 168px;
+  height: 88px;
 }
 
 
@@ -383,27 +383,27 @@
   margin-left: var(--clients-marg-size);
   margin-top: var(--clients-marg-size);
   padding: 0;
-  border: 1px solid var(--border-clients-color);
-  border-radius: 4px;
-}
-
-.icon-clients {
-  fill: var(--border-clients-color);
-}
-
-.icon-clients:hover {
-  fill: var(--bg-button-active);
 }
 
 .link-clients {
   display: flex;
   justify-content: center;
-
+  border: 1px solid var(--border-clients-color);
+  border-radius: 4px;
+  color: var(--border-clients-color);
 }
 
+.icon-clients {
+  fill: currentColor;
+}
+
+.link-clients:hover {
+  border-color: var(--bg-button-active);
+  color: var(--bg-button-active);
+}
 
 /* Стили FOOTER -----------------------------------------------------------*/
-.footer {
+.footer{
   background-color: var(--bg-footer);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -463,7 +463,7 @@
   margin-top: 20px;
 }
 
-/*  */
+/*---*/
 .icon-footer {
   display: inline-flex;
   justify-content: center;
@@ -479,6 +479,10 @@
 .icon-footer:focus {
   background-color: var(--bg-icon-active);
   color: var(--bg-frame-description);
+}
+
+.item-join {
+  margin-right: 10px;
 }
 
 /* --------------------------------------------------------------------------- */
